@@ -17,9 +17,8 @@ export class AppService {
   }
 
   async sendmesstotopic(
-    projectId, // Your Google Cloud Platform project ID
-    topicName, // Name for the new topic to create
-    // subscriptionName = 'package_sub2' // Name for the new subscription to create
+    projectId,
+    topicName,
     message
   ) {
     // Instantiates a client
